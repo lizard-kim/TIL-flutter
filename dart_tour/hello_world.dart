@@ -32,5 +32,5 @@ void main() {
   // The variable might not be needed, and initializing it is costly.
   // You’re initializing an instance variable, and its initializer needs access to this.
   // This is the program's only call to readThermometer().
-  late String temperature = readThermometer(); // Lazily initialized.
+  //late String temperature = readThermometer(); // Lazily initialized.
 }
